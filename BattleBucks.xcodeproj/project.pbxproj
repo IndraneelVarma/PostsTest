@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7C11CC12EA28CA80032A115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C11CBD2EA28CA80032A115 /* Assets.xcassets */; };
+		F7C11CC22EA28CA80032A115 /* BattleBucksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CBE2EA28CA80032A115 /* BattleBucksApp.swift */; };
+		F7C11CC32EA28CA80032A115 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CBF2EA28CA80032A115 /* ContentView.swift */; };
+		F7C11CC62EA28CB60032A115 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CC52EA28CB60032A115 /* ApiError.swift */; };
+		F7C11CC82EA28CB90032A115 /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CC72EA28CB90032A115 /* ApiConfig.swift */; };
+		F7C11CCE2EA28D3F0032A115 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CCD2EA28D3F0032A115 /* PostsView.swift */; };
+		F7C11CD02EA28D680032A115 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CCF2EA28D680032A115 /* PostModel.swift */; };
+		F7C11CD22EA28DDD0032A115 /* PostRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CD12EA28DDD0032A115 /* PostRepositoryProtocol.swift */; };
+		F7C11CD42EA28DFE0032A115 /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CD32EA28DFE0032A115 /* PostRepository.swift */; };
+		F7C11CD62EA28F050032A115 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CD52EA28F050032A115 /* PostViewModel.swift */; };
+		F7C11CD82EA28FEC0032A115 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CD72EA28FEC0032A115 /* PostCardView.swift */; };
+		F7C11CDA2EA2A2CB0032A115 /* FullPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C11CD92EA2A2CB0032A115 /* FullPostView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7C11CAF2EA28C850032A115 /* BattleBucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleBucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C11CBD2EA28CA80032A115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C11CBE2EA28CA80032A115 /* BattleBucksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleBucksApp.swift; sourceTree = "<group>"; };
+		F7C11CBF2EA28CA80032A115 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7C11CC52EA28CB60032A115 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		F7C11CC72EA28CB90032A115 /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		F7C11CCD2EA28D3F0032A115 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		F7C11CCF2EA28D680032A115 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		F7C11CD12EA28DDD0032A115 /* PostRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepositoryProtocol.swift; sourceTree = "<group>"; };
+		F7C11CD32EA28DFE0032A115 /* PostRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepository.swift; sourceTree = "<group>"; };
+		F7C11CD52EA28F050032A115 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		F7C11CD72EA28FEC0032A115 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		F7C11CD92EA2A2CB0032A115 /* FullPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPostView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C11CAC2EA28C850032A115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7C11CA62EA28C850032A115 = {
+			isa = PBXGroup;
+			children = (
+				F7C11CC02EA28CA80032A115 /* BattleBucks */,
+				F7C11CB02EA28C850032A115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C11CB02EA28C850032A115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CAF2EA28C850032A115 /* BattleBucks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C11CC02EA28CA80032A115 /* BattleBucks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CC92EA28D170032A115 /* Posts */,
+				F7C11CC42EA28CAB0032A115 /* Network */,
+				F7C11CBD2EA28CA80032A115 /* Assets.xcassets */,
+				F7C11CBE2EA28CA80032A115 /* BattleBucksApp.swift */,
+				F7C11CBF2EA28CA80032A115 /* ContentView.swift */,
+			);
+			path = BattleBucks;
+			sourceTree = "<group>";
+		};
+		F7C11CC42EA28CAB0032A115 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CC52EA28CB60032A115 /* ApiError.swift */,
+				F7C11CC72EA28CB90032A115 /* ApiConfig.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F7C11CC92EA28D170032A115 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CCA2EA28D1C0032A115 /* data */,
+				F7C11CCB2EA28D1F0032A115 /* domain */,
+				F7C11CCC2EA28D1F0032A115 /* presentation */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		F7C11CCA2EA28D1C0032A115 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CCF2EA28D680032A115 /* PostModel.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		F7C11CCB2EA28D1F0032A115 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CD12EA28DDD0032A115 /* PostRepositoryProtocol.swift */,
+				F7C11CD32EA28DFE0032A115 /* PostRepository.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		F7C11CCC2EA28D1F0032A115 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F7C11CCD2EA28D3F0032A115 /* PostsView.swift */,
+				F7C11CD52EA28F050032A115 /* PostViewModel.swift */,
+				F7C11CD72EA28FEC0032A115 /* PostCardView.swift */,
+				F7C11CD92EA2A2CB0032A115 /* FullPostView.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C11CAE2EA28C850032A115 /* BattleBucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C11CBA2EA28C870032A115 /* Build configuration list for PBXNativeTarget "BattleBucks" */;
+			buildPhases = (
+				F7C11CAB2EA28C850032A115 /* Sources */,
+				F7C11CAC2EA28C850032A115 /* Frameworks */,
+				F7C11CAD2EA28C850032A115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleBucks;
+			packageProductDependencies = (
+			);
+			productName = BattleBucks;
+			productReference = F7C11CAF2EA28C850032A115 /* BattleBucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C11CA72EA28C850032A115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F7C11CAE2EA28C850032A115 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F7C11CAA2EA28C850032A115 /* Build configuration list for PBXProject "BattleBucks" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7C11CA62EA28C850032A115;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7C11CB02EA28C850032A115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C11CAE2EA28C850032A115 /* BattleBucks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7C11CAD2EA28C850032A115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C11CC12EA28CA80032A115 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C11CAB2EA28C850032A115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C11CD22EA28DDD0032A115 /* PostRepositoryProtocol.swift in Sources */,
+				F7C11CC22EA28CA80032A115 /* BattleBucksApp.swift in Sources */,
+				F7C11CD82EA28FEC0032A115 /* PostCardView.swift in Sources */,
+				F7C11CD02EA28D680032A115 /* PostModel.swift in Sources */,
+				F7C11CC82EA28CB90032A115 /* ApiConfig.swift in Sources */,
+				F7C11CC32EA28CA80032A115 /* ContentView.swift in Sources */,
+				F7C11CD42EA28DFE0032A115 /* PostRepository.swift in Sources */,
+				F7C11CDA2EA2A2CB0032A115 /* FullPostView.swift in Sources */,
+				F7C11CD62EA28F050032A115 /* PostViewModel.swift in Sources */,
+				F7C11CCE2EA28D3F0032A115 /* PostsView.swift in Sources */,
+				F7C11CC62EA28CB60032A115 /* ApiError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7C11CB82EA28C870032A115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5VK4WRRWLX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7C11CB92EA28C870032A115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5VK4WRRWLX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7C11CBB2EA28C870032A115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VK4WRRWLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.battlebucks.app.BattleBucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7C11CBC2EA28C870032A115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VK4WRRWLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.battlebucks.app.BattleBucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C11CAA2EA28C850032A115 /* Build configuration list for PBXProject "BattleBucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C11CB82EA28C870032A115 /* Debug */,
+				F7C11CB92EA28C870032A115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C11CBA2EA28C870032A115 /* Build configuration list for PBXNativeTarget "BattleBucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C11CBB2EA28C870032A115 /* Debug */,
+				F7C11CBC2EA28C870032A115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C11CA72EA28C850032A115 /* Project object */;
+}
