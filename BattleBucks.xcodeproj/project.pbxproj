@@ -22,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7C11CAF2EA28C850032A115 /* BattleBucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleBucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C11CBD2EA28CA80032A115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7C11CBE2EA28CA80032A115 /* BattleBucksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleBucksApp.swift; sourceTree = "<group>"; };
 		F7C11CBF2EA28CA80032A115 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		F7C11CD52EA28F050032A115 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		F7C11CD72EA28FEC0032A115 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		F7C11CD92EA2A2CB0032A115 /* FullPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPostView.swift; sourceTree = "<group>"; };
+		F7C11CDD2EA2AC860032A115 /* BattleBucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleBucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,16 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				F7C11CC02EA28CA80032A115 /* BattleBucks */,
-				F7C11CB02EA28C850032A115 /* Products */,
+				F7C11CDD2EA2AC860032A115 /* BattleBucks.app */,
 			);
-			sourceTree = "<group>";
-		};
-		F7C11CB02EA28C850032A115 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F7C11CAF2EA28C850032A115 /* BattleBucks.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F7C11CC02EA28CA80032A115 /* BattleBucks */ = {
@@ -142,7 +134,7 @@
 			packageProductDependencies = (
 			);
 			productName = BattleBucks;
-			productReference = F7C11CAF2EA28C850032A115 /* BattleBucks.app */;
+			productReference = F7C11CDD2EA2AC860032A115 /* BattleBucks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +162,7 @@
 			mainGroup = F7C11CA62EA28C850032A115;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F7C11CB02EA28C850032A115 /* Products */;
+			productRefGroup = F7C11CA62EA28C850032A115;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -348,7 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +373,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
